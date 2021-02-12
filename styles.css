@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f1123;
+}
+
+#moon {
+    height: 45rem;
+    width: 45rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 20px 20px white;
+}
+
+#lantern {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#top, #bottom {
+    width: 5rem;
+    height: 2rem;
+
+    background-color: yellow;
+}
+
+#cover {
+    height: 15rem;
+    width: 25rem;
+    z-index: 25rem;
+
+    border-radius: 40%;
+    background-color: red;
+    opacity: 85%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 40%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    transform-style: preserve-3d;
+}
+
+.rivet {
+    position: absolute;
+    height: 15rem;
+    width: 25rem;
+
+    border-radius: 40%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.one {
+    transform: rotateY(50.5deg);
+}
+
+.two {
+    transform: rotateY(80.5deg);
+}
+
+.three {
+    transform: rotateY(112.5deg);
+}
+
+.four {
+    transform: rotateY(157.5deg);
+}
+
+.glow {
+    position: absolute;
+    height: 10rem;
+    width: 15rem;
+
+    border-radius: 50%;
+    opacity: 15%;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 10px yellow;
+
+}
+
+.tassel {
+    width: 1rem;
+    height: 8rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    cursor: pointer;
+}
+
+.string {
+    height: 3.5rem;
+    width: 0.125rem;
+
+    background-color: black;
+}
+
+.fluff {
+    width: 1.25rem;
+    height: 4.5rem;
+    border-radius: 100%;
+
+    background-color: red;
+}
